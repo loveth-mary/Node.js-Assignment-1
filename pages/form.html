@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find User</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <form action="/find-user" method="post">
+        <h1>Find User</h1>
+
+        <select name="searchBy" id="searchBy">
+            <option value="name">Name</option>
+            <option value="email">Email</option>
+            <option value="id">ID</option>
+        </select><br>
+
+        <input type="text" name="searchValue" placeholder="Enter search value"><br>
+
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
